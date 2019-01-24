@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "Design_20",
+  "database": "usatravels",
+  "entities": ["src/**/**.entity{.ts,.js}"],
+  "synchronize": true
+}
